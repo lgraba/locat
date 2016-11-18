@@ -185,7 +185,7 @@ def client_handler(client_socket):
 	if command:
 		while True:
 			# Simple Prompt
-			client_socket.send("<LoCat:#> ")
+			client_socket.send("Logan ")
 
 			# Let's receive until we detect line feed
 			cmd_buffer = ""
